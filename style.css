@@ -1,0 +1,59 @@
+body{
+	background-color: black;
+	color: black;
+	transition: 3s;
+}
+
+#quote-row{
+	position: fixed;
+	top: 25%;
+}
+
+blockquote{
+	border: 0px;
+	quotes: "\201C""\201D";
+	margin: 0px;
+}
+
+blockquote::before{
+	content: open-quote;
+	font-size: 58px;
+	line-height: 0em;
+	margin-right: 0.25em;
+}
+
+#quote{
+	text-align: center;
+}
+
+#quote-div{
+	background-color: white;
+	padding: 10px;
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+img{
+	width: auto;
+	height: 50px;
+	border-radius: 50%;
+	transition: 1.5s;
+}
+
+img:hover{
+	transform: scale(1.2);
+}
+
+#quotebutton{
+	border: 0.5px;
+	padding: 10px;
+	background-color: rgb(85, 172, 238);
+	transition: 0.5s;
+	border-radius: 5px;
+	float: right;
+	height: 50px;
+}
+
+#quotebutton:hover{
+	box-shadow: 2px 3px 3px lightskyblue;
+}
