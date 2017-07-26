@@ -57,7 +57,7 @@ function ajaxCall(){
 
 function update(response){
     quote.innerHTML = response.quoteText;
-    author.innerHTML = response.quoteAuthor;
+    author.innerHTML = "- " + response.quoteAuthor;
     tweetbutton.href = "https://twitter.com/intent/tweet?hashtags=quotes" + "&text=" + quote.innerHTML + ". by ~ " + quoteAuthor.innerHTML;
     changeBodyBackground();
 }
