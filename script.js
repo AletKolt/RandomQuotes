@@ -4,7 +4,7 @@ var author = document.getElementById("quoteAuthor");
 var tweetbutton = document.getElementById("tweet");
 var xRequest = new XMLHttpRequest();
 var jsonResponse;
-var colorArray = ["orange", "green", "red", "pink", "blue", "#ff45ed", "#56343e", "black", "brown", "#fe3462", "#12ea34", "#3edc32", "#edcaef"];
+var colorArray = ["orange", "green", "red", "pink", "#ff45ed", "#56343e", "black", "brown", "#fe3462", "#12ea34", "#3edc32", "#edcaef"];
 
 $(document).ready(function(){
     ajaxCall();
